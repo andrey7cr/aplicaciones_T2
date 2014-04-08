@@ -1,7 +1,64 @@
 body {
-	background: url("../images/background.jpg") no-repeat scroll ;
+	background: url("../images/back2.jpg") no-repeat scroll center;
 } 
 
-.nivo-prevNav{
-	background-image: url(../imagesprev_icon.png);
+
+#logo{
+	
 }
+
+.entry {
+	float: relative;
+	position:relative;
+	padding:15px;
+	margin:3em 0 3em;
+	margin-left: 30em;
+	margin-right: 30em;
+	color:white;
+	background:#210c2e; /* default background for browsers without gradient support */
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+
+.entry:after{
+	content: "";
+	display: block; /* reduce the damage in FF3.0 */
+	position: absolute;
+	bottom: -15px;
+	left: 50px;
+	width: 0;
+	border-width: 15px 15px 0;
+	border-style: solid;
+	border-color: #210c2e transparent;
+}
+
+/*.bloque .slider #nivoSlider{
+	float: left;
+	position:relative;
+	bottom:0;
+	left:0;
+}*/
+
+.bloque2 {
+	display: inline;
+}
+.nivoSlider{
+	float: left;
+}
+.nivoSlider .nivo-nextNav{
+	color: transparent;
+}
+
+.nivoSlider .nivo-prevNav{
+	color: transparent;
+}
+
+.video .youtube{
+ border-radius: 0 10% 0 10%;	
+ margin-left: 26%;
+ margin-top: -52px;
+}
+
+/*http://css-tricks.com/almanac/properties/b/border-radius/*/
+/*http://nicolasgallagher.com/pure-css-speech-bubbles/demo/*/

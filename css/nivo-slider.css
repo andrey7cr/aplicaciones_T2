@@ -10,10 +10,11 @@
 /* The Nivo Slider styles */
 .nivoSlider {
 	position:relative;
-	left: 37%;
+	left: 25%;
 	width:25%;
 	height:auto;
 	overflow: hidden;
+	border-radius: 10% 0 10% 0;	
 }
 .nivoSlider img {
 	position:absolute;
@@ -101,14 +102,18 @@
 .nivo-nextNav {
 	right:0px;
 }
-/* Control nav styles (e.g. 1,2,3...) */
+/*	 Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav {
 	text-align:center;
 	padding: 15px 0;
+	color: transparent;
 }
+
 .nivo-controlNav a {
 	cursor:pointer;
+	color: transparent;
 }
 .nivo-controlNav a.active {
 	font-weight:bold;
+	color: transparent;
 }
