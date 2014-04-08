@@ -1,0 +1,7 @@
+body {
+	background: url("../images/background.jpg") no-repeat scroll ;
+} 
+
+.nivo-prevNav{
+	background-image: url(../imagesprev_icon.png);
+}
