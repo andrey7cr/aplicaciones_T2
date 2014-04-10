@@ -60,5 +60,31 @@ body {
  margin-top: -52px;
 }
 
+.descarga .titulo_libro{
+	margin-top: 60px;	
+	margin-left: 20px;
+
+}
+
+.imagen_libro{
+	margin-left: 35%;	
+}
+
+
+#descarga_items{
+	display: inline-block;
+	float: left;
+}
+#descarga_items li a.joyland { 
+	margin-top: 60%;
+	background: url('../images/joyland.jpg') no-repeat; padding: 170px 0px 125px 160px;
+	margin-left: 45%; 
+}
+
+#descarga_items li a.doctor_sueno{ 
+	margin-top: 50%;
+	background: url('../images/doctor_sueno.jpg') no-repeat; padding: 0px 0px 125px 160px; 
+	margin-left: 45%; 
+}
 /*http://css-tricks.com/almanac/properties/b/border-radius/*/
 /*http://nicolasgallagher.com/pure-css-speech-bubbles/demo/*/
