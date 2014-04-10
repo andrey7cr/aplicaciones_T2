@@ -1,0 +1,3 @@
+http://jeffreybarke.net/2010/04/mamp-shtml-and-server-side-includes/
+/*http://css-tricks.com/almanac/properties/b/border-radius/*/
+/*http://nicolasgallagher.com/pure-css-speech-bubbles/demo/*/
