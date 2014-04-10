@@ -72,8 +72,10 @@ body {
 
 
 #descarga_items{
-	display: inline-block;
-	float: left;
+	
+	list-style-type: none; 
+	padding: 150px 5px 5px 0;
+
 }
 #descarga_items li a.joyland { 
 	margin-top: 60%;
